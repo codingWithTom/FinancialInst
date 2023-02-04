@@ -12,6 +12,8 @@
 		4051A6D2298891F300C983CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4051A6D1298891F300C983CD /* Assets.xcassets */; };
 		4051A6D6298891F300C983CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4051A6D5298891F300C983CD /* Preview Assets.xcassets */; };
 		4051A6DE2988957800C983CD /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4051A6DD2988957800C983CD /* ContentViewModel.swift */; };
+		4051A6E32988B1F900C983CD /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4051A6E22988B1F900C983CD /* EmailValidator.swift */; };
+		409BEF25298B53D800B1C6D0 /* CheckValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409BEF24298B53D800B1C6D0 /* CheckValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4051A6D3298891F300C983CD /* FinancialInst.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinancialInst.entitlements; sourceTree = "<group>"; };
 		4051A6D5298891F300C983CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4051A6DD2988957800C983CD /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		4051A6E22988B1F900C983CD /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		409BEF24298B53D800B1C6D0 /* CheckValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		4051A6CC298891F100C983CD /* FinancialInst */ = {
 			isa = PBXGroup;
 			children = (
+				4051A6E12988B1EE00C983CD /* Validator */,
 				4051A6CD298891F100C983CD /* FinancialInstApp.swift */,
 				4051A6CF298891F100C983CD /* ContentView.swift */,
 				4051A6DD2988957800C983CD /* ContentViewModel.swift */,
@@ -70,6 +75,15 @@
 				4051A6D5298891F300C983CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4051A6E12988B1EE00C983CD /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				4051A6E22988B1F900C983CD /* EmailValidator.swift */,
+				409BEF24298B53D800B1C6D0 /* CheckValidator.swift */,
+			);
+			path = Validator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4051A6D0298891F100C983CD /* ContentView.swift in Sources */,
+				4051A6E32988B1F900C983CD /* EmailValidator.swift in Sources */,
 				4051A6CE298891F100C983CD /* FinancialInstApp.swift in Sources */,
 				4051A6DE2988957800C983CD /* ContentViewModel.swift in Sources */,
+				409BEF25298B53D800B1C6D0 /* CheckValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
